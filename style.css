@@ -1,0 +1,70 @@
+body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Fonte mais moderna */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            background-color: #e0e0e0; /* Fundo um pouco mais escuro */
+            margin: 0;
+            padding: 20px;
+            box-sizing: border-box;
+            color: #333; /* Cor de texto padrão */
+        }
+        h1 {
+            color: #2c3e50; /* Cor do título */
+            margin-bottom: 20px;
+        }
+        canvas {
+            border: 3px solid #2c3e50; /* Borda mais escura e grossa */
+            border-radius: 12px; /* Bordas mais arredondadas */
+            background-color: lightgray;
+            box-shadow: 0 6px 12px rgba(0,0,0,0.15); /* Sombra mais pronunciada */
+            cursor: crosshair; /* Cursor de mira */
+        }
+        .controles {
+            margin-top: 25px; /* Mais espaço */
+            display: flex;
+            align-items: center;
+            gap: 25px; /* Mais espaçamento entre controles */
+            background-color: #ffffff;
+            padding: 15px 25px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        #scoreBoard {
+            font-size: 1.6em; /* Tamanho da fonte maior */
+            font-weight: bold;
+            color: #2c3e50;
+        }
+        #messageArea {
+            margin-top: 15px;
+            font-size: 1.3em; /* Tamanho da fonte maior */
+            font-weight: bold;
+            height: 35px; /* Espaço reservado maior */
+            text-align: center;
+            min-width: 200px; /* Largura mínima para a mensagem */
+        }
+        button {
+            padding: 12px 25px; /* Botão maior */
+            font-size: 1.1em; /* Fonte maior no botão */
+            color: white;
+            background-color: #3498db; /* Azul mais vibrante */
+            border: none;
+            border-radius: 8px; /* Bordas mais arredondadas */
+            cursor: pointer;
+            transition: background-color 0.2s ease-in-out, transform 0.1s ease; /* Transições suaves */
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        button:hover {
+            background-color: #2980b9; /* Azul mais escuro no hover */
+            transform: translateY(-2px); /* Efeito de levantar no hover */
+        }
+        button:active {
+            transform: translateY(0px); /* Efeito de pressionar */
+        }
+        button:disabled {
+            background-color: #bdc3c7; /* Cinza para desabilitado */
+            cursor: not-allowed;
+            transform: translateY(0px);
+        }
