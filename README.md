@@ -5,7 +5,7 @@ Um simples jogo de navegador "Tiro ao Alvo" feito com HTML, CSS e JavaScript. Cl
 ## 🕹️ Como Jogar
 
 1.  **Iniciar:** Abra o ficheiro HTML no navegador e clique em "**Iniciar Jogo**".
-2.  **Jogar:** Use o rato (cursor de mira) para clicar nos alvos que aparecem aleatoriamente.
+2.  **Jogar:** Use o cursor de mira para clicar nos alvos que aparecem aleatoriamente.
 3.  **Pontuação:**
     * Centro do alvo (vermelho escuro): +10 pontos.
     * Anel intermédio (branco): +5 pontos.
